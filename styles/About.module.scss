@@ -67,6 +67,18 @@
     padding: 20px 0;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .info {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .image {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .features {
         padding-left: 0;

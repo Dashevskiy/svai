@@ -25,7 +25,7 @@ const About = () => {
                 <p className={styles.infoText}>Бурение ям под сваи, установка винтовых свай  в Киеве и по Украине. Коллектив, работающий под торговой маркой Ваши винтовые сваи, это люди профессионально подходящие к решению поставленных задач.</p>
                 <button className={styles.button}>Подробнее</button>
             </div>
-            <div>
+            <div className={styles.image}>
             <Box
               sx={{
                 backgroundImage: `url(${about.src})`,
