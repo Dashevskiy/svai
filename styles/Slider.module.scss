@@ -1,0 +1,61 @@
+@import 'variables';
+
+.sliderInfo {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    color: $white;
+    padding: 20px;
+
+    .title {
+        font-size: 46px;
+    }
+
+    .text {
+        font-size: 18px;
+        padding: 10px 0 40px;
+    }
+
+    .button {
+        color: $white;
+        background-color: $green;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 10px 0;
+        width: 300px;
+        outline: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sliderInfo {
+    
+        .title {
+            font-size: 38px;
+        }
+    
+        .text {
+            font-size: 18px;
+        }
+    
+        .button {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sliderInfo {
+        .title {
+            font-size: 34px;
+        }
+
+        .button {
+            width: 100%;
+        }
+    }
+}
