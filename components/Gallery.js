@@ -21,7 +21,11 @@ const images = [
 const Gallery = () => {
 
   return (
-    <div><ImageGallery items={images} />;</div>
+    <div className={styles.container}>
+      <div className={styles.title}>ГАЛЕРЕЯ</div>
+      <h4 className={styles.sub}>Наши работы</h4>
+      <ImageGallery items={images} />
+    </div>
    )
 }
 

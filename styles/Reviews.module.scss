@@ -1,9 +1,6 @@
 @import 'variables';
 
 .container {
-    width: 50%;
-    max-width: 1024px;
-    margin: 40px auto;
 
     .title {
         text-align: center;
@@ -14,11 +11,5 @@
         text-align: center;
         font-size: 36px;
         padding-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .container {
-        width: 75%;
     }
 }
