@@ -1,0 +1,38 @@
+import React from 'react';
+import styles from '../styles/SvaiType.module.scss';
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+
+const SvaiType = () => {
+
+  return (
+    <div className={styles.container}>
+        <div className={styles.mainCard}>
+            <h5 className={styles.title}>Виды винтовых свай</h5>
+            <p className={styles.desc}>Технология строительства фундаментов на винтовых сваях не является новой. В большинстве случаев в советское время эта технология применялась для строительства мостов, переходов, причалов, маяков.</p>
+        </div>
+        <div className={styles.card}>
+            <h5 className={styles.title}>Фундамент на сваях</h5>
+            <p className={styles.desc}>Строительство это процесс, в основе которого лежит создание фундамента.</p>
+            <div className={styles.btn}>
+                <ArrowRightAltIcon sx={{ color: 'white' }}/>
+            </div>
+        </div>
+        <div className={styles.card}>
+            <h5 className={styles.title}>Установка свай</h5>
+            <p className={styles.desc}>Установка свай подразумевает процесс вкручивания свай на заданную глубину, для обеспечения ее несущей способности.</p>
+            <div className={styles.btn}>
+                <ArrowRightAltIcon sx={{ color: 'white' }}/>
+            </div>
+        </div>
+        <div className={styles.card}>
+            <h5 className={styles.title}>Литые наконечники</h5>
+            <p className={styles.desc}>Надежный, качественный фундамент – это основа и безопасность любого строения.</p>
+            <div className={styles.btn}>
+                <ArrowRightAltIcon sx={{ color: 'white' }}/>
+            </div>
+        </div>
+    </div>
+   )
+}
+
+export default SvaiType;

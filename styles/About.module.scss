@@ -10,8 +10,9 @@
 .info {
     display: flex;
     justify-content: space-between;
-    width: 1024px;
+    max-width: 1024px;
     margin-top: 40px;
+    padding: 0 20px;
 }
 
 .infoContainer {
@@ -32,11 +33,9 @@
 }
 
 .card {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     min-width: 200px;
-    width: 17vw;
-    height: 15vh;
+    width: max-content;
 }
 
 .green {
@@ -83,6 +82,18 @@
     .features {
         padding-left: 0;
         justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .desc {
+        text-align: center;
     }
 }
 

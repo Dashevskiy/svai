@@ -1,0 +1,61 @@
+@import 'variables';
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+    
+    .card {
+        flex: 1 1 22%;
+        height: 300px;
+        padding: 20px;
+        .btn {
+            width: fit-content;
+            background-color: $blue;
+            width: 24px;
+            height: 24px;
+        }
+    
+        &:nth-child(2){
+            background: url('../assets/svai2.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        &:nth-child(3){
+            background: url('../assets/svai3.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            .btn {
+                background-color: $green;
+            }
+        }
+        &:nth-child(4){
+            background: url('../assets/svai4.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .mainCard {
+        flex: 1 1 33%;
+        background: url('../assets/svai1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .desc {
+        padding: 20px 0;
+    }
+}
