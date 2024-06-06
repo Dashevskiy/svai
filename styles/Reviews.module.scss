@@ -1,6 +1,26 @@
 @import 'variables';
 
 .container {
+    width: 50%;
+    max-width: 1024px;
+    margin: 0 auto;
+    .reviews {
+        display: flex;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .text {
+                padding: 20px 0;
+            }
+
+            .author {
+                font-weight: bold;
+            }
+        }
+    }
 
     .title {
         text-align: center;
