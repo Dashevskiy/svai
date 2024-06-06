@@ -5,6 +5,7 @@ import Layout from "../layouts/Layout";
 import MySlider from "../components/Slider";
 import About from "../components/About";
 import SvaiType from "../components/SvaiType";
+import Gallery from "../components/Gallery";
 
 const Index = () => {
 
@@ -15,6 +16,7 @@ const Index = () => {
       <MySlider/>
       <About/>
       <SvaiType/>
+      <Gallery/>
 
     </Layout>
    )
