@@ -18,31 +18,33 @@ export default function MySlider() {
     autoplay: true,
   };
   return (
-    <Slider {...settings}>
-      {sliderData.map((item)=>{
-        return (
-          <div className={styles.sliderItem} key={item.id}>
-            <Box
-              sx={{
-                backgroundImage: `url(${item.img.src})`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                height: "900px",
-                width: "1920px",
-                position: "absolute",
-                backgroundPposition: "center",
-                zIndex: "-1",
-              }}>
-            </Box>
+    <div className='top-slider'>
+      <Slider {...settings}>
+        {sliderData.map((item)=>{
+          return (
+            <div className={styles.sliderItem} key={item.id}>
+              <Box
+                sx={{
+                  backgroundImage: `url(${item.img.src})`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  height: "900px",
+                  width: "1920px",
+                  position: "absolute",
+                  backgroundPposition: "center",
+                  zIndex: "-1",
+                }}>
+              </Box>
 
-            <div className={styles.sliderInfo}>
-              <h3 className={styles.title}>{item.title}</h3>
-              <p className={styles.text}>{item.text}</p>
-              <button className={styles.button}>{item.button}</button>
+              <div className={styles.sliderInfo}>
+                <h3 className={styles.title}>{item.title}</h3>
+                <p className={styles.text}>{item.text}</p>
+                <button className={styles.button}>{item.button}</button>
+              </div>
             </div>
-          </div>
-        )
-      })}
-    </Slider>
+          )
+        })}
+      </Slider>
+    </div>
   );
 }
