@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <Link href={'/'} className={styles.btn}>Контакты</Link>
         </div>
-        <Box sx={{ color: '#D4D7DD' }}>Svai© All rights reserved Copyrights 2024</Box>
+        <Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box>
       </div>
     </div>
    )
