@@ -4,7 +4,6 @@ import styles from '../styles/Reviews.module.scss';
 import Image from 'next/image';
 import review from '../assets/review.png';
 import Slider from "react-slick";
-import Box from '@mui/material/Box';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

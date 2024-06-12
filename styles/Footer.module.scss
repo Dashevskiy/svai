@@ -1,0 +1,57 @@
+@import 'variables';
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        background-color: $blue;
+        flex: 1 1 33.333%;
+
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            .tel {
+                color: $white;
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        background-color: $green;
+        flex: 1 1 67.7777%;
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .services {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .palies {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.ul {
+
+}
+
+.li {
+    list-style: none;
+}
+
+.btn, .tel {
+    text-decoration: none;
+    color: $white;
+} 
