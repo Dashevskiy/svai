@@ -31,7 +31,7 @@ const Footer = () => {
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Буровые работы</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Склоны и проблемные грунты</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Фундамент на воде</Link></li>
-              <li className={styles.li}><Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box></li>
+              <li className={[styles.li, styles.litestdesc].join(' ')}><Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box></li>
             </ul>
           </div>
           <div className={styles.palies}>
@@ -44,9 +44,11 @@ const Footer = () => {
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Литые наконечники</Link></li>
             </ul>
           </div>
-          <Link href={'/'} className={styles.btn}>Контакты</Link>
+          <ul className={styles.ul}>
+            <li className={styles.li}><Link href={'/'} className={styles.btn}>Контакты</Link></li>
+          </ul>
+          <li className={[styles.li, styles.litestmob].join(' ')}><Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box></li>
         </div>
-        {/* <Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box> */}
       </div>
     </div>
    )

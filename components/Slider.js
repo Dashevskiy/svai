@@ -17,18 +17,25 @@ export default function MySlider() {
     slidesToScroll: 1,
     autoplay: false,
   };
+
+  const drawerWidth = {
+     height: "calc(100vh - 150px)",
+    '@media(maxWidth: 676px)' : {
+      height: 'calc(100vh - 64px)'
+    }
+  }
+
   return (
     <div className='top-slider'>
       <Slider {...settings}>
         {sliderData.map((item)=>{
           return (
             <div className={styles.sliderItem} key={item.id}>
-              <Box
+              <Box className={styles.testimg}
                 sx={{
                   backgroundImage: `url(${item.img.src})`,
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
-                  height: "calc(100vh - 150px)",
                   width: "100vw",
                   position: "absolute",
                   backgroundPposition: "center",

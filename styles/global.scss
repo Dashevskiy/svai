@@ -44,13 +44,23 @@
     } 
 }
 
-
-@media screen and (max-width: 900px) {
+@media (max-width: 1024px)  {
     .top-slider {
         .slick-slider{
-            min-height: calc(100vh - 90px);
+            min-height: calc(100vh - 100px);
             .slick-list{
-            min-height: calc(100vh - 90px); 
+                min-height: calc(100vh - 100px); 
+            }
+        }
+    }
+}
+
+@media (max-width: 676px)  {
+    .top-slider {
+        .slick-slider{
+            min-height: calc(100vh - 64px);
+            .slick-list{
+                min-height: calc(100vh - 64px); 
             }
         }
     }
