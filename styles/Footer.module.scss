@@ -8,12 +8,15 @@
     .left {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-color: $blue;
         flex: 1 1 33.333%;
 
         .contacts {
             display: flex;
             flex-direction: column;
+            margin-top: 10px;
             .tel {
                 color: $white;
             }
@@ -25,10 +28,11 @@
         flex-direction: column;
         background-color: $green;
         flex: 1 1 67.7777%;
+        padding: 20px 0;
 
         .info {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
 
         .services {
@@ -49,6 +53,10 @@
 
 .li {
     list-style: none;
+    padding: 3px 0;
+    .copy {
+        margin-top: 20px;
+    }
 }
 
 .btn, .tel {

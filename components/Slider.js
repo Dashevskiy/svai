@@ -15,7 +15,7 @@ export default function MySlider() {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
   };
   return (
     <div className='top-slider'>
@@ -28,8 +28,8 @@ export default function MySlider() {
                   backgroundImage: `url(${item.img.src})`,
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
-                  height: "900px",
-                  width: "1920px",
+                  height: "calc(100vh - 150px)",
+                  width: "100vw",
                   position: "absolute",
                   backgroundPposition: "center",
                   zIndex: "-1",

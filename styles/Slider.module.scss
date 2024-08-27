@@ -9,6 +9,7 @@
     margin: auto;
     color: $white;
     padding: 20px;
+    min-height: calc(100vh - 150px);
 
     .title {
         font-size: 46px;
@@ -16,7 +17,11 @@
 
     .text {
         font-size: 18px;
-        padding: 10px 0 40px;
+        margin: 10px 0 40px;
+        display: -webkit-box;
+        -webkit-line-clamp: 10;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
     }
 
     .button {

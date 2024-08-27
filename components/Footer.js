@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Footer.module.scss';
-import logo from '../assets/svai.svg';
+import logo from '../assets/svai_white.svg';
 import Image from 'next/image';
 import Link from "next/link";
 import Box from '@mui/material/Box';
@@ -24,16 +24,19 @@ const Footer = () => {
       <div className={styles.right}>
         <div className={styles.info}>
           <div className={styles.services}>
-            <ul className={styles.ul}><Link href={'/'} className={styles.btn}>Услуги</Link>
+            <ul className={styles.ul}>
+              {/* <Link href={'/'} className={styles.btn}>Услуги</Link> */}
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Частное строительство</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Промышленное строительство</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Буровые работы</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Склоны и проблемные грунты</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Фундамент на воде</Link></li>
+              <li className={styles.li}><Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box></li>
             </ul>
           </div>
           <div className={styles.palies}>
-            <ul className={styles.ul}><Link href={'/'} className={styles.btn}>Сваи</Link>
+            <ul className={styles.ul}>
+              {/* <Link href={'/'} className={styles.btn}>Сваи</Link> */}
               <li className={styles.li}><Link href={'/'} className={styles.btn}>История винтовых свай</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Виды винтовых свай</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Фундамент на сваях</Link></li>
@@ -43,7 +46,7 @@ const Footer = () => {
           </div>
           <Link href={'/'} className={styles.btn}>Контакты</Link>
         </div>
-        <Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box>
+        {/* <Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box> */}
       </div>
     </div>
    )
