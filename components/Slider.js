@@ -15,15 +15,8 @@ export default function MySlider() {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
   };
-
-  const drawerWidth = {
-     height: "calc(100vh - 150px)",
-    '@media(maxWidth: 676px)' : {
-      height: 'calc(100vh - 64px)'
-    }
-  }
 
   return (
     <div className='top-slider'>
