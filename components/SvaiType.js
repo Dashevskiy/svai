@@ -2,17 +2,10 @@ import React from 'react';
 import styles from '../styles/SvaiType.module.scss';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
-import { Roboto } from 'next/font/google';
- 
-const roboto = Roboto({
-  weight: ['400', '700'],
-  subsets: ['latin'],
-})
-
 const SvaiType = () => {
 
   return (
-    <div className={[styles.container, roboto.className].join(' ')}>
+    <div className={styles.container}>
         <div className={styles.mainCard}>
             <h5 className={styles.title}>Виды винтовых свай</h5>
             <p className={styles.desc}>Технология строительства фундаментов на винтовых сваях не является новой. В большинстве случаев в советское время эта технология применялась для строительства мостов, переходов, причалов, маяков.</p>
