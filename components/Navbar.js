@@ -52,13 +52,13 @@ const Navbar = (props) => {
     <div>
       <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
         <ul className={styles.navbar}>
-          <li><Link href="/">Головна</Link></li>
-          <li><Link href="/">Палі</Link></li>
-          <li><Link href="/">Послуги</Link></li>
-          <li><Link href="/">Ціни</Link></li>
-          <li><Link href="/">Про нас</Link></li>
-          <li><Link href="/">Статті</Link></li>
-          <li><Link href="/">Контакти</Link></li>
+          <li className={styles.link116}><Link href="/">Головна</Link></li>
+          <li className={styles.link116}><Link href="/">Палі</Link></li>
+          <li className={styles.link116}><Link href="/">Послуги</Link></li>
+          <li className={styles.link116}><Link href="/">Ціни</Link></li>
+          <li className={styles.link116}><Link href="/">Про нас</Link></li>
+          <li className={styles.link116}><Link href="/">Статті</Link></li>
+          <li className={styles.link116}><Link href="/">Контакти</Link></li>
         </ul>
       </Box>
 

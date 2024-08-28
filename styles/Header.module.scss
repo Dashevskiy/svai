@@ -20,7 +20,7 @@
     li {
         font-size: 22px;
         line-height: 24px;
-        padding-left: 20px;
+        margin-left: 20px;
 
         a {
             color: $blue;
@@ -28,7 +28,7 @@
         }
 
         &:first-child{
-            padding-left: 0;
+            margin-left: 0;
         }
     }
 }
@@ -51,6 +51,38 @@
         padding-right: 20px;
     }
 }
+
+.link116 {
+    padding: 10px 0px;
+    margin: 0px;
+    position: relative;
+  }
+  
+  .link116::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #000;
+    width: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .link116:hover::after {
+    width: 100%;
+    animation: heartbeat116 1.5s infinite;
+  }
+  
+  @keyframes heartbeat116 {
+    0%, 100% {
+      width: 100%;
+    }
+    50% {
+      width: 60%;
+    }
+  }
+  
 
 @media (max-width: 900px)  {
     .container {
