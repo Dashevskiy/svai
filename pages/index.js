@@ -18,7 +18,7 @@ const Index = () => {
 
   return (
     <div className={roboto.className}>
-    <Layout keywords={'main page'} title={'Main Page'}>
+    <Layout keywords={'main page'} title={'Головна сторінка'}>
       {/* <Link href={'/users'}>users page</Link> */}
 
       <MySlider/>
