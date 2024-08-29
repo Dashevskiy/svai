@@ -1,0 +1,28 @@
+@import 'variables';
+
+.container {
+    color: $green;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        .field {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .title {
+                margin: 10px 0;
+            }
+
+            .txt, .title {
+                color: $blue;
+                text-decoration: none;
+            }
+        }
+    }
+}

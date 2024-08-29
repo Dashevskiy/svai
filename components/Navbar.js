@@ -42,7 +42,7 @@ const Navbar = (props) => {
         <li><Link href="/">Ціни</Link></li>
         <li><Link href="/">Про нас</Link></li>
         <li><Link href="/">Статті</Link></li>
-        <li><Link href="/">Контакти</Link></li>
+        <li><Link href="/contacts">Контакти</Link></li>
       </ul>
       </List>
     </Box>
@@ -58,7 +58,7 @@ const Navbar = (props) => {
           <li className={styles.link116}><Link href="/">Ціни</Link></li>
           <li className={styles.link116}><Link href="/">Про нас</Link></li>
           <li className={styles.link116}><Link href="/">Статті</Link></li>
-          <li className={styles.link116}><Link href="/">Контакти</Link></li>
+          <li className={styles.link116}><Link href="/contacts">Контакти</Link></li>
         </ul>
       </Box>
 
