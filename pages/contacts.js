@@ -22,17 +22,17 @@ const Contacts = () => {
             <a href='tel:+380989717555' className={styles.txt}>+380989717555</a>
           </div>
           <div className={styles.field}>
-            <EmailIcon style={{ fontSize: 60 }}/>
+            <EmailIcon className={styles.customIcon}/>
             <h1 className={styles.title}>Email</h1>
             <a href= "mailto: vvsvai4@gmail.com" className={styles.txt}>vvsvai4@gmail.com</a>
           </div>
           <div className={styles.field}>
-            <LocationOnIcon style={{ fontSize: 60 }}/>
+            <LocationOnIcon className={styles.customIcon}/>
             <h1 className={styles.title}>Адреса</h1>
             <span className={styles.txt}>Україна, Київ, вулиця Будіндустрії, 6</span>
           </div>
           <div className={styles.field}>
-            <QueryBuilderIcon style={{ fontSize: 60 }}/>
+            <QueryBuilderIcon className={styles.customIcon}/>
             <h1 className={styles.title}>Графік роботи</h1>
             <span className={styles.txt}>Пн-Пт 9:00 - 18:00</span>
             <span className={styles.txt}>Cб-Нд вихідні</span>

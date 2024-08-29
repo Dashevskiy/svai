@@ -45,7 +45,7 @@ const Footer = () => {
             </ul>
           </div>
           <ul className={styles.ul}>
-            <li className={styles.li}><Link href={'/'} className={styles.btn}>Контакты</Link></li>
+            <li className={styles.li}><Link href={'/contacts'} className={styles.btn}>Контакты</Link></li>
           </ul>
           <li className={[styles.li, styles.litestmob].join(' ')}><Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box></li>
         </div>
