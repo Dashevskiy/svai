@@ -1,0 +1,18 @@
+.container {
+    padding: 0 20px;
+}
+
+.paragraph {
+    margin: 20px 0;
+}
+.beforeList {
+    margin-bottom: 0;
+}
+
+.listContainer {
+    .liItem {
+        list-style: inside;
+        list-style-type: "\2714";
+        margin-left: 20px;
+    }
+}

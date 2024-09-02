@@ -7,9 +7,9 @@ import About from "../components/About";
 import SvaiType from "../components/SvaiType";
 import Gallery from "../components/Gallery";
 import Reviews from "../components/Reviews";
-import { Roboto } from 'next/font/google';
+import { Lato } from 'next/font/google';
 
-const roboto = Roboto({
+const lato = Lato({
   weight: ['400', '700'],
   subsets: ['latin'],
 })
@@ -17,7 +17,7 @@ const roboto = Roboto({
 const Index = () => {
 
   return (
-    <div className={roboto.className}>
+    <div className={lato.className}>
     <Layout keywords={'main page'} title={'Головна сторінка'}>
       {/* <Link href={'/users'}>users page</Link> */}
 
