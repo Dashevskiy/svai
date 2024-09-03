@@ -20,6 +20,7 @@ const Contacts = () => {
             <h1 className={styles.title}>Телефон</h1>
             <a href="tel:+380677368568" className={styles.txt}>+380677368568</a>
             <a href='tel:+380989717555' className={styles.txt}>+380989717555</a>
+            <a href='tel:+380639507008' className={styles.txt}>+380639507008</a>
           </div>
           <div className={styles.field}>
             <EmailIcon className={styles.customIcon}/>
@@ -30,12 +31,14 @@ const Contacts = () => {
             <LocationOnIcon className={styles.customIcon}/>
             <h1 className={styles.title}>Адреса</h1>
             <span className={styles.txt}>Україна, Київ, вулиця Будіндустрії, 6</span>
+            <span className={styles.txt}>ВАТ "Експериментально-механічний завод"</span>
           </div>
           <div className={styles.field}>
             <QueryBuilderIcon className={styles.customIcon}/>
             <h1 className={styles.title}>Графік роботи</h1>
-            <span className={styles.txt}>Пн-Пт 9:00 - 18:00</span>
-            <span className={styles.txt}>Cб-Нд вихідні</span>
+            <span className={styles.txt}>Пн. - пт. з 9:00 до 18:00</span>
+            <span className={styles.txt}>Сб. з 10:00 до 16:00</span>
+            <span className={styles.txt}>Нд. вихідний</span>
           </div>
         </div>
       </div>
