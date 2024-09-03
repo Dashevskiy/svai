@@ -1,18 +1,35 @@
+@import 'variables';
+
 .container {
     padding: 0 20px;
+
+    .title {
+        margin-top: 20px;
+    }
 }
 
 .paragraph {
     margin: 20px 0;
 }
+
+.important {
+    color: $green;
+    font-weight: 700;
+    font-style: italic;
+}
+
 .beforeList {
-    margin-bottom: 0;
+    // margin-bottom: 0;
 }
 
 .listContainer {
     .liItem {
-        list-style: inside;
+        list-style: outside;
         list-style-type: "\2714";
         margin-left: 20px;
+        padding-left: 10px;
+
+        &::marker {
+        }
     }
 }
