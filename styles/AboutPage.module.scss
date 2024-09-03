@@ -19,7 +19,6 @@
 }
 
 .beforeList {
-    // margin-bottom: 0;
 }
 
 .listContainer {
@@ -28,8 +27,5 @@
         list-style-type: "\2714";
         margin-left: 20px;
         padding-left: 10px;
-
-        &::marker {
-        }
     }
 }

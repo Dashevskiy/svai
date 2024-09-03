@@ -23,7 +23,7 @@ const Gallery = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>ГАЛЕРЕЯ</div>
-      <h4 className={styles.sub}>Наши работы</h4>
+      <h4 className={styles.sub}>Наші работи</h4>
       <ImageGallery items={images} />
     </div>
    )
