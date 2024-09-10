@@ -31,6 +31,7 @@ const Footer = () => {
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Буровые работы</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Склоны и проблемные грунты</Link></li>
               <li className={styles.li}><Link href={'/'} className={styles.btn}>Фундамент на воде</Link></li>
+              <li className={styles.li}><Link href={'/privacy-policy'} className={styles.btn}>Умови використання сайту</Link></li>
               <li className={[styles.li, styles.litestdesc].join(' ')}><Box sx={{ color: '#D4D7DD' }} className={styles.copy}>Svai© All rights reserved Copyrights 2024</Box></li>
             </ul>
           </div>

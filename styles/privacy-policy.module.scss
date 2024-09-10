@@ -1,0 +1,24 @@
+@import 'variables';
+
+.container {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 90%;
+    min-height: calc(100vh - 380px);
+    font-family: Helvetica, sans-serif;
+    color: $blue;
+}
+
+.headline {
+    text-align: center;
+    font-size: 36px;
+}
+
+.title {
+    margin: 20px 0 5px;
+    font-size: 32px;
+}
+
+.txt {
+    font-size: 16px;
+}

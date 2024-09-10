@@ -4,27 +4,32 @@ import Image from 'next/image';
 import Box from '@mui/material/Box';
 import logo from '../assets/svai.svg';
 import styles from '../styles/Header.module.scss';
+import Link from 'next/link';
 
 const Header = () => {
 
   return (
     <div className={styles.container}>
       <Box sx={{ display: { xs: 'none', sm: 'none', md: 'flex' } }}>
-        <Image
-          src={logo}
-          width={160}
-          height={60}
-          alt="logo"
-        />
+        <Link href="/">
+          <Image
+            src={logo}
+            width={160}
+            height={60}
+            alt="logo"
+          />
+        </Link>
       </Box>
 
       <Box sx={{ display: { xs: 'none', sm: 'flex', md: 'none' } }}>
-        <Image
-          src={logo}
-          width={120}
-          height={40}
-          alt="logo"
-        />
+        <Link href="/">
+          <Image
+            src={logo}
+            width={120}
+            height={40}
+            alt="logo"
+          />
+        </Link>
       </Box>
 
       <Box sx={{ display: { xs: 'flex', sm: 'none', md: 'none' } }}>
