@@ -17,7 +17,6 @@ const Articles = () => {
                     <ArticleCard article={article} key={article.id}/>
                 )
             })}
-           
         </div>
     </Layout>
    )
