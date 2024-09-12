@@ -10,7 +10,7 @@ const Articles = () => {
 
   return (
     <Layout keywords={'Статті'} title={'Статті'}>
-         <PageHeader image={image} title={'Статті'}/>
+        <PageHeader image={image} title={'Статті'}/>
         <div className={styles.container}>
             {articles.map((article)=>{
                 return (

@@ -50,7 +50,7 @@ export default function ArticleCard({article}) {
           <div className={styles.subtitle}>
               {article.subtitle} 
           </div>
-          <Link href="/" className={styles.details}> Детальніше</Link>
+          <Link href={`/blog/${article.latin}`} className={styles.details}> Детальніше</Link>
         </CardContent>
       </Card>
     </Box>
