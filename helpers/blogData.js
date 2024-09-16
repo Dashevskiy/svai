@@ -1,7 +1,7 @@
 import winterSvai from '../assets/winter_svai.jpg';
 import historySvai from '../assets/history_svai.jpg';
 
-export const articles = [
+export const blogData = [
     {
         id: 1,
         img: winterSvai,

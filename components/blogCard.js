@@ -15,7 +15,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Link from 'next/link';
-import styles from '../styles/ArticleCard.module.scss';
+import styles from '../styles/BlogCard.module.scss';
 import { Lato } from 'next/font/google';
 
 const lato = Lato({
@@ -23,7 +23,7 @@ const lato = Lato({
   subsets: ['latin'],
 })
 
-export default function ArticleCard({article}) {
+export default function BlogCard({item}) {
 
   return (
     <Box className={`${styles.container} ${lato.className}`}>
@@ -35,22 +35,22 @@ export default function ArticleCard({article}) {
             </Avatar>
           }
           title="Адміністратор Ваші палі"
-          subheader={article.date}
+          subheader={item.date}
         />
         <CardMedia
           component="img"
           height="194"
-          image={article.img.src}
+          image={item.img.src}
           alt="зимове будівництво"
         />
         <CardContent>
           <div className={styles.title}>
-              {article.title}
+              {item.title}
           </div>
           <div className={styles.subtitle}>
-              {article.subtitle} 
+              {item.subtitle} 
           </div>
-          <Link href={`/blog/${article.latin}`} className={styles.details}> Детальніше</Link>
+          <Link href={`/blog/${item.latin}`} className={styles.details}> Детальніше</Link>
         </CardContent>
       </Card>
     </Box>
